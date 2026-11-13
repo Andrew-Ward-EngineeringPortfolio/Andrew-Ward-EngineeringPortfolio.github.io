@@ -1,4 +1,4 @@
-﻿/* ===== Andrew Ward portfolio, v3: "Wix vibe + v1 structure" =====
+/* ===== Andrew Ward portfolio, v3: "Wix vibe + v1 structure" =====
    Monochrome and editorial: black header band, thin Jost type,
    Playfair Display for project titles, square corners, no shadows.
    Color comes only from photos and logos. */
@@ -128,9 +128,9 @@ details[open] > summary::after { content: " \2013"; }
 .gallery img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
 
 .label-sub { margin-top: 4.5rem; color: var(--muted); }
-.cards-sm { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 2.5rem 2rem; margin-top: 1.25rem; }
+.cards-sm { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 2.5rem 1.75rem; margin-top: 1.25rem; }
 .card-sm .card-media img { aspect-ratio: 3 / 2; }
-.card-sm .card-title { font-size: 1.3rem; }
+.card-sm .card-title { font-size: 1.2rem; }
 .card-sm .card-summary { font-size: .97rem; }
 
 /* ----- Skills ----- */
