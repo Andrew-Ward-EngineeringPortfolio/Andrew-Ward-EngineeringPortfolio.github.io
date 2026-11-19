@@ -219,3 +219,10 @@ a.zoom:hover img { opacity: .88; }
 .lb-next { right: .4rem; top: 50%; transform: translateY(-50%); font-size: 3.4rem !important; }
 .lightbox button[hidden] { display: none; }
 html.lb-open { overflow: hidden; }
+
+/* projects grouped by company */
+.work-group { margin-top: 2.25rem; }
+.work-group:first-of-type { margin-top: .5rem; }
+.label-group { margin: 0 0 1.25rem; padding-top: 1.25rem; border-top: 1px solid var(--rule); color: var(--ink, #111); }
+.work-group:first-of-type .label-group { border-top: 0; padding-top: 0; }
+.work-group .cards + .cards-sm { margin-top: 2.75rem; }
